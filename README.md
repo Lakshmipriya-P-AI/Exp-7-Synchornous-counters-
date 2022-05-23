@@ -69,6 +69,7 @@ endmodule
 ### RTL LOGIC 
 ### UP COUNTER
 <img width="574" alt="cdcup" src="https://user-images.githubusercontent.com/93427923/169741921-ca2a3d39-34be-441c-9d40-554a964eccd2.png">
+![uptime2](https://user-images.githubusercontent.com/93427923/169742354-8b167072-9827-4302-96ee-cf6cccd94d07.png)
 
 ### TIMING DIAGRAM
 <img width="947" alt="ttcup" src="https://user-images.githubusercontent.com/93427923/169741939-50ea85a9-bee9-4fd2-bd68-4a5b2efac259.png">
@@ -92,7 +93,7 @@ endmodule
 
 ### RTL DOWN COUNTER
 <img width="476" alt="cdcdow" src="https://user-images.githubusercontent.com/93427923/169742023-7621f949-1da5-49c9-b3f9-71303237b94c.png">
-
+![downtime2](https://user-images.githubusercontent.com/93427923/169742302-7954df5e-c008-47d7-acad-2bb7ffe15f6b.png)
 
 ### TIMING DIGRAMS FOR COUNTER  
 
