@@ -109,4 +109,4 @@ endmodule
 ![cdow](https://user-images.githubusercontent.com/93427923/169742037-69103d9c-6a87-45de-a4db-b3b6d922cba0.jpg)
 
 ### RESULTS 
-4 bit up and down counters are implemented and its functionality is validated successfully.
+Hence the Four bit Up counter and Down counter is implemented successfully and its functionality is validated
