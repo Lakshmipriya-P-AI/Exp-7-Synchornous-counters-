@@ -9,7 +9,6 @@ PC, Cyclone II , USB flasher
 Quartus prime
 
 ### THEORY 
-
 ## UP COUNTER 
 The counter is a digital sequential circuit and here it is a 4 bit counter, which simply means it can count from 0 to 15 and vice versa based upon the direction of counting (up/down). 
 
@@ -41,16 +40,20 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
-
-
+1. Open a new project using Quartus II.
+2. Declare the inputs and outputs inside module projname().
+3. Set the reset value using register.
+4. Use commands like begin and end to stimulate the counter.
+5. For Up counter increment the count and for Down counter decrement the count.
+6. End the verilog programming.
+7.Get the timing diagram and RTL realization diagram for respective Counters.
 
 ### PROGRAM 
-/*
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: P.Lakshmi Priya
 RegisterNumber:  212221230053
-*/
+```
 ```
 UP COUNTER
 module ex06(input clk,input reset,output[3:0]counter);
@@ -69,6 +72,7 @@ endmodule
 ### RTL LOGIC 
 ### UP COUNTER
 <img width="574" alt="cdcup" src="https://user-images.githubusercontent.com/93427923/169741921-ca2a3d39-34be-441c-9d40-554a964eccd2.png">
+
 ![uptime2](https://user-images.githubusercontent.com/93427923/169742354-8b167072-9827-4302-96ee-cf6cccd94d07.png)
 
 ### TIMING DIAGRAM
@@ -79,6 +83,7 @@ endmodule
 
 
 ## DOWN COUNTER:
+```
 module ex06(input clk,input reset,output[3:0]counter);
 reg[3:0]counter_down;
 always@(posedge clk or posedge reset)
@@ -90,8 +95,10 @@ counter_down<=counter_down-4'd1;
 end
 assign counter = counter_down;
 endmodule 
+```
 
 ### RTL DOWN COUNTER
+
 <img width="476" alt="cdcdow" src="https://user-images.githubusercontent.com/93427923/169742023-7621f949-1da5-49c9-b3f9-71303237b94c.png">
 ![downtime2](https://user-images.githubusercontent.com/93427923/169742302-7954df5e-c008-47d7-acad-2bb7ffe15f6b.png)
 
